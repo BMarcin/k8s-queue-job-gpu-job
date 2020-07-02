@@ -5,6 +5,7 @@ RUN ln -snf /bin/bash /bin/sh
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
+ENV DEVICE cpu
 
 RUN apt-get -y update && apt-get -y install python-dev python3 python3-dev python3-setuptools python3-pip
 
